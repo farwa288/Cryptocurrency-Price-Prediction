@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>Crypto Currency Price Prediction</title>
+</head>
+<body style="background-color: rgb(247, 212, 255);">
+<center>
+    <form action="/predict" method ="POST">
+
+        <h1> Model For Cryptocurrency Price Prediction :</h1>
+        <br>
+        <label>Coin name : </label><select name="name">
+            <option value="Bitcoin"> Bitcoin </option>
+            <option value="Cardano"> Cardano </option>
+            <option value="Dogecoin"> Dogecoin </option>
+            <option value="Ethereum"> Ethereum </option>
+        </select><br><br>
+
+        <label>High Value : </label><input type="text"  name ="high"><br><br>
+        <label>Low Value : </label><input type="text"  name ="low"><br><br>
+        <label>Open Value : </label><input type="text"  name="open"><br><br>
+        <label>Volume shared for day : </label><input type="text" name ="volume"><br><br>
+        <label>Market Capital : </label><input type="text" name ="marketcap"><br><br>
+        <label>Year : </label><input type="text" name ="date_year"><br><br>
+        <label>Month : </label><input type="text" name ="date_month"><br><br>
+        <label>Day : </label><input type="text" name ="date_day"><br><br>
+
+        <input type="submit">
+        <br><br>
+        
+    </form>
+</center>
+    
+</body>
+</html>

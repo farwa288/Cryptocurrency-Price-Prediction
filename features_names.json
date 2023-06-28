@@ -1,0 +1,1 @@
+{"coin_name": {"Bitcoin": 0, "Cardano": 1, "Dogecoin": 2, "Ethereum": 3}, "feature_names": ["Name", "High", "Low", "Open", "Volume", "Marketcap", "Date_year", "Date_month", "Date_day"]}
